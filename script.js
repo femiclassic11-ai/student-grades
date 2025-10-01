@@ -16,10 +16,6 @@ function ability(){
 
     //Output
     console.log("Student Name: " + studentName);
-    console.log("Assignment 1: " + assignment1);
-    console.log("Assignment 2: " + assignment2);
-    console.log("Final Exam: " + finalExam);
-    console.log("Assignment Average: " + assignmentAverage);
     console.log("Final Grade: " + finalGrade);
     console.log("Has Passed: " + hasPassed);
     console.log("Excellent performance: " + isExcellent);
