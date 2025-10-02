@@ -4,41 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Grades</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <center>
-   <table>
-   <section id="section_b">
-               <table class="container">
-                    <caption class="ss">Students Grades</caption>
-                    <thead>
-                        <tr>
-                            <th scope="row">Num</th>
-                            <th scope="row">Student Name</th>
-                            <th scope="row">Average Score</th>
-                            <th scope="row">Exam score</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>April</td>
-                            <td>91</td>
-                            <td>93</td>
-                            
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-               </table>
+   <h1>Student Grade</h1>
+   <section>
+    <div>
+        <div class="Student_name">
+           <label for="Student name">Name</label><br>
+           <input type="text" placeholder="Name"/><br><br>
+           </div>
+          <div class="Average score">
+            <label for="Average score">Avg score</label><br>
+            <input type="number" placeholder="Average score"/><br><br>
+            </div>
+            <div class="Exam score">
+             <label for="Exam score">Exam score</label><br>
+               <input type="number" placeholder="Exam score"/><br><br>
+               </div>
+               </div>
                <button onclick="ability()">Check Grades</button>
+    </section>
     </center>
     <script src="./script.js"></script>
-    
+
 </body>
 </html>
